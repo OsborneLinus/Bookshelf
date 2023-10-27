@@ -1,0 +1,160 @@
+* {
+  font-family: "Tilt Neon", sans-serif;
+}
+
+#filter {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #2980b9, #3498db);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.book:hover .displayHover {
+  display: block;
+  background-color: bisque;
+}
+.displayHover {
+  display: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bookshelf {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 8px;
+  width: 60%;
+  background-image: url("images/wooden-bookshelf.webp");
+}
+.book {
+  background-color: aliceblue;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  width: 10rem;
+  height: 15rem;
+  font-style: italic;
+  border: 5px;
+}
+
+.britney-spears {
+  background-image: url("images/the-woman-in-me-sve.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.lena-andersson {
+  background-image: url("images/studie-i-manskligt-beteende.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.david-goggings {
+  background-image: url("images/cant-hurt-me.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.jon-fosse {
+  background-image: url("images/hundmanuskripten.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.robert-greene {
+  background-image: url("images/the-48-laws-of-power.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.pascal-engman {
+  background-image: url("images/eldslandet.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.anton-chekhov {
+  background-image: url("images/9781443428323_200x_kiss_e-bok.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.donna-tartt {
+  background-image: url("images/den-hemliga-historien_pocket.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.stieg-larsson {
+  background-image: url("images/man-som-hatar-kvinnor.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.jens-lapidus {
+  background-image: url("images/snabba-cash.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.emma-cline {
+  background-image: url("images/flickorna.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.joyce-carol-oates {
+  background-image: url("images/blonde.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-link {
+  width: 8rem;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  color: black;
+}
+
+.footer {
+  border-top: 1px solid black;
+  margin-top: 10px;
+  font-size: 10px;
+}
